@@ -72,7 +72,7 @@ section{
 .banner-section{
     padding: 40px 0;
     text-align:center;
-    background:orange url('images/kayak-bkgd-for-web.jpg');
+    background:black url('images/kayak-bkgd-for-web.jpg');
     background-size:cover;
     background-repeat:no-repeat;
     background-attachment:fixed;
