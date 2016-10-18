@@ -54,7 +54,7 @@ section{
     /*when a link has been visited*/
 .menu-primary a:visited{
     text-decoration:none; 
-    color:white;
+    color:blue;
 }
 .menu-primary  a:hover{
      text-decoration:underline; 
