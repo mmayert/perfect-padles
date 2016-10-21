@@ -36,18 +36,22 @@ section{
 .container {
     width:1140px;
     margin:0 auto;
-    height:150px;
+    padding:30px;
+    height:180px;
 }
 /*Header and nav bar*/
 
 .site-header {
     background:black;
     color:white;
-    height: 110px;
+    height: 60px;
 }
 
 .logo{
     float: left;
+}
+.logo-photo{
+    height:50px;
 }
 
 .menu-primary ul{
@@ -92,14 +96,16 @@ section{
     display:block;
     text-transform:uppercase;
     font-family: Karla-Regular;
+    font-size:0.75em;
 }
 .banner-section .second-line{
     display:block;
     font-size:3em;
     font-family: Pacifico;
+    line-height:150%;
     }
 .banner-section .third-line{
-    font-size:2em;
+    font-size:1.5em;
     font-family: Pacifico;
 }
 #banner-paragraph{
@@ -109,11 +115,11 @@ section{
     font-family: Karla-Regular;
     
 }
-button{
-    
+button{  
     background-color:#e2574c;
     color:white;
     border-radius:25px;
+    font-family: Karla-Regular;
 }
 button a{text-decoration: none;
 color:white;}
