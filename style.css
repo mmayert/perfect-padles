@@ -5,7 +5,8 @@ p{
     text-align:center;
 }
 
-@font-face { font-family: Pacifico; src: url('fonts/Pacifico.ttf'); }
+@font-face { font-family: Pacifico; src: url('fonts/Pacifico.ttf');}
+@font-face { font-family: Karla-Regular; src: url('fonts/karla-regular.ttf'); }
 
 h1{
     text-align:center;
@@ -68,8 +69,9 @@ section{
 
  .menu-primary li {   
     list-style-type:none;
-    text-transform: uppercase;    
-    display:inline-block;
+    text-transform: uppercase; 
+    font-family: Karla-Regular;   
+    display: inline-block;
     padding:10px;
     }
 
@@ -89,6 +91,7 @@ section{
 .banner-section .first-line{
     display:block;
     text-transform:uppercase;
+    font-family: Karla-Regular;
 }
 .banner-section .second-line{
     display:block;
@@ -103,6 +106,7 @@ section{
     color:white;
     background: rgba(0, 0, 0, 0.6);
     margin:30px 350px;
+    font-family: Karla-Regular;
     
 }
 button{
