@@ -155,14 +155,15 @@ button a:hover{color:#b64036;}
 
 /*Rental Section*/
 .column1of2 {
-    float:left;
     width:40%;
-    padding:10px;
+    padding:30px;
     display:block;
+    float:left;
+    clear:right;
 }
 .column2of2{
-    float:right;
     width:50%;
+    float:right;
 }
 .rental-section a {
     color:#e2574c;
@@ -190,6 +191,10 @@ button a:hover{color:#b64036;}
     padding:20px;
     margin:0px;
     font-weight:normal;
+}
+/*Locations*/
+.location-section{
+    clear:both;
 }
 
 #left-alignment{
