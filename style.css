@@ -5,6 +5,8 @@ p{
     text-align:center;
 }
 
+@font-face { font-family: Pacifico; src: url('fonts/Pacifico.ttf'); }
+
 h1{
     text-align:center;
 }
@@ -40,7 +42,7 @@ section{
 .site-header {
     background:black;
     color:white;
-    height: 11s0px;
+    height: 110px;
 }
 
 .logo{
@@ -91,10 +93,11 @@ section{
 .banner-section .second-line{
     display:block;
     font-size:3em;
-    
-}
+    font-family: Pacifico;
+    }
 .banner-section .third-line{
     font-size:2em;
+    font-family: Pacifico;
 }
 #banner-paragraph{
     color:white;
