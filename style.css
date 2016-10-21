@@ -7,6 +7,7 @@ p{
 
 @font-face { font-family: Pacifico; src: url('fonts/Pacifico.ttf');}
 @font-face { font-family: Karla-Regular; src: url('fonts/karla-regular.ttf'); }
+@font-face { font-family: Karla-Bold; src: url('fonts/karla-Bold.ttf'); }
 
 h1{
     text-align:center;
@@ -90,7 +91,7 @@ section{
     background:black url('images/kayak-bkgd-for-web.jpg');
     background-size:cover;
     background-repeat:no-repeat;
-    background-attachment:fixed;
+    background-attachment:scroll;
     background-position:center center;
     color:white;
 }
@@ -154,16 +155,23 @@ button a:hover{color:#b64036;}
 }
 
 /*Rental Section*/
+
+.rental-section {
+    margin-top:250px;
+}
 .column1of2 {
     width:40%;
     padding:30px;
     display:block;
     float:left;
     clear:right;
+    text-align:left;
+    line-height:175%;
 }
 .column2of2{
     width:50%;
     float:right;
+    padding:30px;
 }
 .rental-section a {
     color:#e2574c;
@@ -171,16 +179,11 @@ button a:hover{color:#b64036;}
 .rental-section a:hover{
     color:#b64036;
 }
-#table-header{
-    background-color:#e6e6e6;
-    font-weight:bold;  /* Not working???*/
-}
 
-#table-header .bold-table {font-weight:bold;}
+#table-header .bold-table {font-weight:bold;
+font-family:karla-bold;
+background-color:#e6e6e6;}
 
-.rental-section{
-    text-align:left;
-}
 
 .prices-table{
     float:right;
@@ -191,17 +194,22 @@ button a:hover{color:#b64036;}
     padding:20px;
     margin:0px;
     font-weight:normal;
+    width:100%;
+    font-family:karla-regular;
+    table-layout: fixed;
+}
+#left-alignment{
+    text-align:left;
 }
 /*Locations*/
 .location-section{
     clear:both;
 }
 
-#left-alignment{
-    text-align:left;
-}
+
 
 /*Footer */
+
 
 .site-footer{
     background-color:#242424;
@@ -214,13 +222,18 @@ button a:hover{color:#b64036;}
 .site-footer a{
     color:white; /*Question hover color*/
 }
+.site-footer a:hover {color:#b64036;}
 
 .site-footer .address-paragraph{
     color:#989898;
 }
 .left-side-footer {
     text-align:left;
+    float left;
+    padding:40px 30px 40px 30px;
 }
 
-.site-footer a:hover {color:#b64036;}
+
+
+
 
