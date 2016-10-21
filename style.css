@@ -4,6 +4,7 @@ p{
     color:#2d2d2d;
     text-align:center;
 }
+
 h1{
     text-align:center;
 }
@@ -36,17 +37,19 @@ section{
 }
 /*Header and nav bar*/
 
-
 .site-header {
     background:black;
     color:white;
+    height: 11s0px;
 }
 
 .logo{
-    height:50px;
+    float: left;
 }
+
 .menu-primary ul{
-    margin:0;
+    float:right;
+    margin:10px;
 }
 .menu-primary a {
     text-decoration:none;
@@ -68,6 +71,8 @@ section{
     padding:10px;
     }
 
+    
+
 /*Banner Section*/
 .banner-section{
     padding: 40px 0;
@@ -86,6 +91,7 @@ section{
 .banner-section .second-line{
     display:block;
     font-size:3em;
+    
 }
 .banner-section .third-line{
     font-size:2em;
