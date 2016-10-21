@@ -2,7 +2,7 @@ p{
     font-size:16px;
     font-family:fonts/karla-regular.ttf;
     color:#2d2d2d;
-    text-align:center;
+    font-family:karla-regular;
 }
 
 @font-face { font-family: Pacifico; src: url('fonts/Pacifico.ttf');}
@@ -14,6 +14,8 @@ h1{
 
 .section-header{
     color:#646464;
+    font-family: Pacifico;
+    font-size: 2em;
 }
 body{
     margin:0;
@@ -136,24 +138,32 @@ button a:hover{color:#b64036;}
     padding:30px;
 }
 
-.section-header{
-    font-family: Pacifico;
-    font-size: 2em;
-}
 .about-section p {
     font-family:karla-regular;
     line-height:175%;
 }
 
+.about-images {
+    float:left;
+}
 .about-images img {
-    width:400px;
-    height:300px;
-    margin: 200px,100px,200px,100px;
+    width:300px;
+    height:200px;
+    margin: 200px,10px,200px,10px;
     box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 }
 
 /*Rental Section*/
-
+.column1of2 {
+    float:left;
+    width:40%;
+    padding:10px;
+    display:block;
+}
+.column2of2{
+    float:right;
+    width:50%;
+}
 .rental-section a {
     color:#e2574c;
 }
@@ -167,6 +177,13 @@ button a:hover{color:#b64036;}
 
 #table-header .bold-table {font-weight:bold;}
 
+.rental-section{
+    text-align:left;
+}
+
+.prices-table{
+    float:right;
+}
 .prices-table, th, td {
     border: 2px solid #c8c8c8;
     border-collapse: collapse;
