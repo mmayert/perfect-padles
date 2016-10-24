@@ -157,10 +157,12 @@ button a:hover{color:#b64036;}
 }
 
 /*Rental Section*/
-
-.rental-section {
+.container-3 {
+    width:100%;
     margin-top:250px;
+    margin-bottom:250px;
 }
+
 .column1of2 {
     width:37%;
     padding:30px;
