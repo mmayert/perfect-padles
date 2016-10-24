@@ -41,6 +41,7 @@ section{
     margin:0 auto;
     padding:30px;
     height:180px;
+
 }
 /*Header and nav bar*/
 
@@ -138,6 +139,7 @@ button a:hover{color:#b64036;}
     margin:0 auto;
     padding:30px;
 }
+
 
 .about-section p {
     font-family:karla-regular;
