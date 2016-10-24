@@ -213,7 +213,9 @@ background-color:#e6e6e6;}
 
 .site-footer{
     background-color:#242424;
+    overflow:auto;
 }
+
 .site-footer p{
         color:white;
     text-align:left;
@@ -231,6 +233,10 @@ background-color:#e6e6e6;}
     text-align:left;
     float left;
     padding:40px 30px 40px 30px;
+}
+
+.right-side-footer{
+    float:right;
 }
 
 
