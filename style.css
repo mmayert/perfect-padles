@@ -49,17 +49,15 @@ section{
     background:black;
     color:white;
     height: 60px;
+    display:flex;
+    justify-content:space-between;
 }
 
-.logo{
-    float: left;
-}
 .logo-photo{
     height:50px;
 }
 
 .menu-primary ul{
-    float:right;
     margin:10px;
 }
 .menu-primary a {
@@ -148,37 +146,35 @@ button a:hover{color:#b64036;}
 }
 
 .about-images {
-    align:center;
+    display:flex;
+    flex: 1 0 33%;
+
+    
+
 }
 .about-images img {
-    width:30%;
-    height:300px;
-    margin: 10px 10px 10px 20px;
     box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 }
 
 /*Rental Section*/
 .container-3 {
+   display:flex;
+   justify-content:space-between;
+   flex-wrap:wrap;
+   padding:20px;
+}
+.section-header {
     width:100%;
-    margin-top:20px;
-    margin-bottom:20px;
-    overflow:auto;
+
+}
+.column1of2{
+    text-align:left;
+    width:40%
+} 
+.column2of2 {
+    width:50%;
 }
 
-.column1of2 {
-    width:37%;
-    padding:30px;
-    display:block;
-    float:left;
-    clear:right;
-    text-align:left;
-    line-height:175%;
-}
-.column2of2{
-    width:50%;
-    float:right;
-    padding:30px;
-}
 .rental-section a {
     color:#e2574c;
 }
@@ -191,16 +187,14 @@ font-family:karla-bold;
 background-color:#e6e6e6;}
 
 
-.prices-table{
-    float:right;
-}
+
 .prices-table, th, td {
+    width:100%;
     border: 2px solid #c8c8c8;
     border-collapse: collapse;
     padding:20px;
     margin:0px;
     font-weight:normal;
-    width:100%;
     font-family:karla-regular;
     table-layout: fixed;
 }
@@ -219,7 +213,10 @@ background-color:#e6e6e6;}
 
 .site-footer{
     background-color:#242424;
-    overflow:auto;
+    display:flex;
+    justify-content:space-between;
+    padding:20px;
+    
 }
 
 .site-footer p{
@@ -236,16 +233,10 @@ background-color:#e6e6e6;}
     color:#989898;
 }
 .left-side-footer {
-    text-align:left;
-    float left;
-    padding:40px 30px 40px 30px;
+
 }
 
 .right-side-footer{
-    float:right;
+    justify-content:space-between;
+  
 }
-
-
-
-
-
