@@ -62,6 +62,7 @@ section{
 }
 .menu-primary a {
     text-decoration:none;
+    color:white;
 }
     /*when a link has been visited*/
 .menu-primary a:visited{
@@ -85,23 +86,26 @@ section{
 
 /*Banner Section*/
 .banner-section{
-    padding: 40px 0;
-    text-align:center;
+    padding: 4% 0;
     background:black url('images/kayak-bkgd-for-web.jpg');
     background-size:cover;
     background-repeat:no-repeat;
     background-attachment:scroll;
     background-position:center center;
     color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-content:center;
 }
 .banner-section .first-line{
-    display:block;
+
     text-transform:uppercase;
     font-family: Karla-Regular;
     font-size:0.75em;
 }
 .banner-section .second-line{
-    display:block;
+ 
     font-size:3em;
     font-family: Pacifico;
     line-height:150%;
@@ -113,7 +117,7 @@ section{
 #banner-paragraph{
     color:white;
     background: rgba(0, 0, 0, 0.6);
-    margin:30px 350px;
+    margin:3% 35%;
     font-family: Karla-Regular;
     
 }
@@ -124,7 +128,8 @@ button{
     font-family: Karla-Regular;
     text-transform: uppercase;
     font-size: 1em;
-    padding: 10px;
+    padding: 1%;
+    width:15%;
 }
 button a{text-decoration: none;
 color:white;}
