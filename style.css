@@ -168,7 +168,7 @@ button a:hover{color:#b64036;}
  
     line-height:180%;
     text-align:left;
-    padding-right:20%;
+    padding-right:8%;
 }
 
 .telephone {
@@ -208,6 +208,11 @@ button a:hover{color:#b64036;}
 p  {
     line-height:180%;
 }
+.container-4 {
+    padding:1% 1%;
+    width:97%
+    
+}
 
 /*Footer*/
 .site-footer{
@@ -234,5 +239,86 @@ p  {
 }
 
 @media (min-width:1140px) {
-    
+    .site-header {
+    height: 12%;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.logo-photo{
+    height:60%;
+    width:70%;
+    margin:5%;
+    text-align:left;
+}
+.menu-primary ul{
+    font-size:1.5em;
+    text-align: right;
+    padding:1%;
+    margin:2%;
+}
+
+.container {
+    margin:0 auto;
+    padding:3%;
+    height:96%;
+
+}    
+
+#banner-paragraph{
+    font-size:1.25em;
+    margin:5% 22%;
+}
+.banner-section .first-line {
+    text-transform:uppercase;
+}
+.banner-section .third-line{
+    line-height:2;
+    font-size:2em;
+}
+.sign-me-up{
+    font-size:1.3em;
+}
+.section-header {
+    font-size:3.25em;
+    margin:4% 0%;
+}
+.about-section p {
+     margin:3% 17%;
+}
+.about-images{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin:3%
+}
+.container-3{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+   
+}
+.column1of2 {
+    width:49%;
+}
+.column1of2 p{
+    padding-right:5%;
+}
+.column2of2{
+    width:49%
+}
+
+.site-footer {
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    font-size:1em;
+    padding:5% 10% 5% 2%;
+    height:30%;
+}
+.left-side-footer{
+    text-align:left;
+    width:25%;
+}
+
 }
