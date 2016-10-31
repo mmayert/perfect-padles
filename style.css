@@ -213,6 +213,11 @@ p  {
     width:97%
     
 }
+.map {
+   width: 100%;
+   height: 400px;
+   background-color: grey;
+ }
 
 /*Footer*/
 .site-footer{

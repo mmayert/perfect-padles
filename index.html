@@ -84,6 +84,22 @@
             <p> Come visit us at our location on Cornwall Avenue and Yew Street in Vancouver:</p>
             <div class="map">
             <!--map-->
+
+<script>
+function myMap() {
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {
+    center: new google.maps.LatLng(51.5, -0.2), 
+    zoom: 10
+  }
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+}
+</script>
+
+<script src="http://maps.googleapis.com/maps/api/js?key=49.2725721,-123.1572035,16.91z"></script>
+
+
+
             </div>
         </section>
 
