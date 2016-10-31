@@ -43,6 +43,7 @@ img{
     margin:1.5%;
     font-size:2.5em;
     
+    
 }
 /*Links and list for nav bar */
 .menu-primary a {
@@ -230,6 +231,8 @@ p  {
 
 .site-footer .address-paragraph{
     color:#989898;
+}
 
-
-
+@media (min-width:1140px) {
+    
+}
