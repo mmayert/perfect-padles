@@ -1,11 +1,24 @@
-@font-face { font-family: Pacifico; src: url('fonts/Pacifico.ttf');}
-@font-face { font-family: Karla-Regular; src: url('fonts/karla-regular.ttf'); }
-@font-face { font-family: Karla-Bold; src: url('fonts/karla-Bold.ttf'); }
+@font-face { 
+    font-family: Pacifico;
+    src: url('fonts/Pacifico.ttf');
+    font-weight:normal; 
+}
+@font-face { 
+    font-family: Karla;
+    src: url('fonts/karla-regular.ttf');
+    font-weight:normal;
+    }
+@font-face {
+     font-family: Karla ; 
+     src: url('fonts/karla-Bold.ttf');
+     font-weight:bold;
+    }
+
 
 body {
     font-size:16px;
     color:#2d2d2d;
-    font-family:karla-regular;
+    font-family:karla;
     line-height:1.25;
     box-sizing: border-box;
     margin:0;
@@ -19,7 +32,9 @@ img{
 .section-header{
     color:#646464;
     font-family: Pacifico;
-    font-size: 7em;
+    font-size: 2.5em;
+    margin:40px;
+    font-weight:normal;
 }
 
 
@@ -33,15 +48,17 @@ img{
 }
 
 .logo-photo{
-    height:8%;
-    width:50%;
+    width:55%;
+    padding:10px;
+   
 }
 .menu-primary{
     width:100%;
 }
 .menu-primary ul{
-    margin:1.5%;
-    font-size:2.5em;
+    margin:2%;
+    font-size:1em;
+    text-align:center;
     
     
 }
@@ -61,14 +78,14 @@ img{
  .menu-primary li {   
     list-style-type:none;
     text-transform: uppercase; 
-    font-family: Karla-Regular;   
+    font-family: Karla;   
     padding:1%;
     display:inline-block;
     }
 /*Banner Section*/
 
 .banner-section {
-    padding: 25% 0;
+    padding: 17% 0;
     text-align:center;
     background:black url('images/kayak-bkgd-for-web.jpg');
     background-size:cover;
@@ -80,38 +97,37 @@ img{
 }
 
 .banner section .container {
-    width:100%;
+    width:99%;
     margin:0 auto;
     padding:3%;
-    height:16%;
-    background: rgba(0, 0, 0, 0.9);}
+    background: rgba(0, 0, 0, 0.9);
 }
 
 /*text*/
 .banner-section .first-line{
     display:block;
     text-transform:uppercase;
-    font-family: Karla-Regular;
-    font-size:1.75em;
+    font-family: Karla;
+    font-weight:normal;
 }
 .banner-section .second-line{
     display:block;
-    font-size:5em;
+    font-size:1.75em;
     font-family: Pacifico;
-    line-height:150%;
+    line-height:75px;
     }
 .second-line, .third-line {
     text-shadow:2px 2px 5px #999;
 }
 .banner-section .third-line{
-    font-size:3.5em;
+    font-size:1.25em;
     font-family: Pacifico;
 }
 
 #banner-paragraph{
     color:white;
     background: rgba(0, 0, 0, 0.6);
-    font-family: Karla-Regular;
+    font-family: Karla;
     line-height:1.25em;
     margin: 8% 10%;
     padding:1% 4%;
@@ -122,9 +138,9 @@ button{
     background-color:#e2574c;
     color:white;
     border-radius:60px;
-    font-family: Karla-Regular;
+    font-family: Karla;
     text-transform: uppercase;
-    font-size: 3em;
+    font-size: 1.05em;
     padding: 0.75em;
     border:none;
 }
@@ -135,14 +151,16 @@ button a:hover{color:#b64036;}
 
 /*About*/
 .container-2{
-    width:100%;
-    margin:0 auto;
+    align:center;
+    width:100%vw;
+    margin:0 0 auto;
     padding:2% 0;
 }
 
 .about-section p {
-    font-family:karla-regular;
-    line-height:180%;
+    font-family:karla;
+    line-height:165%;
+    font-weight:normal;
     margin:3%;
 }
 
@@ -150,11 +168,13 @@ button a:hover{color:#b64036;}
     display:flex;
     flex-direction:column; 
     justify-content:space-between;
+    margin:2px;
 
 }
 .about-images img {
-    box-shadow: 9px 7px 8px rgba(0, 8, 0, 0.35);
-    height:35%;
+    box-shadow:3px 5px 5px rgba(0, 0, 0, 0.4);
+    height:auto;
+    width:95%;
     margin:2% 2%;
 }
 
@@ -169,6 +189,7 @@ button a:hover{color:#b64036;}
     line-height:180%;
     text-align:left;
     padding-right:8%;
+    font-family:karla;
 }
 
 .telephone {
@@ -186,7 +207,8 @@ button a:hover{color:#b64036;}
 }
 
 #table-header .bold-table {
-    font-family:karla-bold;
+    font-family:karla;
+    font-weight:bold;
     background-color:#e6e6e6;}
 
 
@@ -196,7 +218,7 @@ button a:hover{color:#b64036;}
     padding:2%;
     margin:0;
     font-weight:normal;
-    font-family:karla-regular;
+    font-family:karla;
     table-layout: fixed;
     font-size:16px
 }
@@ -213,11 +235,6 @@ p  {
     width:97%
     
 }
-.map {
-   width: 100%;
-   height: 400px;
-   background-color: grey;
- }
 
 /*Footer*/
 .site-footer{
@@ -225,9 +242,7 @@ p  {
     display:flex;
     flex-direction:column;
     justify-content:center;
-    padding:2% 13%;
-    height:50%;
-    font-size:2.5em;
+    padding:10% 11.25%;
     
 }
 .site-footer p{
@@ -242,12 +257,18 @@ p  {
 .site-footer .address-paragraph{
     color:#989898;
 }
+.site-footer .right-side-footer .text{
 
+    display:none;
+
+}
+.site-footer .right-side-footer .toggle {
+    padding:10px;
+}
 
 /*Tablet */
-@media (min-width:600px) {
+@media sceen and (min-width:600px){
     .site-header {
-    height: 7%;
     flex-direction:row;
     justify-content:space-between;
 }
@@ -259,10 +280,14 @@ p  {
     text-align:left;
 }
 .menu-primary ul{
-    font-size:1.5em;
+    font-size:1em;
     text-align: right;
-    padding:1%;
-    margin:2%;
+    font-weight:bold;
+    
+}
+.menu-primary li {
+    padding:0% 3%;
+    
 }
 
 .container {
@@ -279,7 +304,7 @@ p  {
 }
 .banner-section .first-line {
     text-transform:uppercase;
-    font-size:1.25em;
+    font-size:1em;
 }
 .banner-section .third-line{
     line-height:2;
@@ -300,12 +325,11 @@ p  {
 }
 .about-images{
     display:flex;
-    width:100vw;
-    flex-direction: row;
+    flex-direction:row;
     justify-content:space-around;
-    margin:3%
-    padding:1%;
+
 }
+
 .container-3{
     display:flex;
     flex-direction: row;
@@ -345,9 +369,10 @@ p  {
 }
 
 
-@media (min-width:1140px) {
+
+/*Desktop*/
+@media screen and  (min-width:1140px) {
     .site-header {
-    height: 12%;
     flex-direction:row;
     justify-content:space-between;
 }
@@ -396,11 +421,15 @@ p  {
 .about-section p {
      margin:3% 17%;
 }
-.about-images{
-    display:flex;
+.about-images img{
+  /*  display:flex;
     flex-direction: row;
     justify-content:space-around;
-    margin:3%
+    margin:3%*/
+    
+    width: 30%;
+    float:left;
+    margin-right:1%;
 }
 .container-3{
     display:flex;
@@ -429,6 +458,10 @@ p  {
 .left-side-footer{
     text-align:left;
     width:25%;
+
 }
 
 }
+*/
+ 
+
