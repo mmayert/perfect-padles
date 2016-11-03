@@ -1,19 +1,18 @@
 @font-face { 
     font-family: Pacifico;
-    src: url('fonts/Pacifico.ttf');
+    src: url('../fonts/Pacifico.ttf');
     font-weight:normal; 
 }
 @font-face { 
     font-family: Karla;
-    src: url('fonts/karla-regular.ttf');
+    src: url('../fonts/karla-regular.ttf');
     font-weight:normal;
     }
 @font-face {
      font-family: Karla ; 
-     src: url('fonts/karla-Bold.ttf');
+     src: url('../fonts/karla-Bold.ttf');
      font-weight:bold;
     }
-
 
 body {
     font-size:16px;
@@ -30,6 +29,7 @@ img{
 }
 
 .section-header{
+    border:3px solid deeppink;
     color:#646464;
     font-family: Pacifico;
     font-size: 2.5em;
@@ -40,6 +40,7 @@ img{
 
 /*Header and nav bar*/
 .site-header {
+    border:3px solid deeppink;
     background:black;
     color:white;
     display:flex;
@@ -88,6 +89,7 @@ img{
 /*Banner Section*/
 
 .banner-section {
+    border:3px solid deeppink;
     padding: 17% 0;
     text-align:center;
     background:
@@ -95,8 +97,7 @@ img{
     rgba(0, 0, 0, 0.25) 0%, 
     rgba(0, 0, 0, 0.25) 100%
     ),
-     url('images/kayak-bkgd-for-web.jpg');
-    
+     url('../images/kayak-bkgd-for-web.jpg');
     background-size:cover;
     background-repeat:no-repeat;
     background-attachment:scroll;
@@ -110,10 +111,6 @@ img{
     margin:0 auto;
     padding:3%;
     
-}
-
-
-
 }
 
 /*text*/
@@ -164,6 +161,7 @@ button a:hover{color:#b64036;}
 
 /*About*/
 .container-2{
+    border:3px solid deeppink;
     width:100%vw;
     margin:0 0 auto;
     padding:2% 0;
@@ -177,6 +175,7 @@ button a:hover{color:#b64036;}
 }
 
 .about-images {
+    border:3px solid deeppink;
     display:flex;
     flex-direction:column; 
     justify-content:space-between;
@@ -184,7 +183,7 @@ button a:hover{color:#b64036;}
 
 }
 .about-images img {
-    box-shadow:3px 5px 5px rgba(0, 0, 0, 0.4);
+    box-shadow:2px 2px 5px 1px #666;
     height:auto;
     width:95%;
     margin:2% 2%;
@@ -197,7 +196,6 @@ button a:hover{color:#b64036;}
     padding: 2% 2% 2% 2%;
 }
 .column1of2 p{
- 
     line-height:180%;
     text-align:left;
     padding-right:8%;
@@ -243,14 +241,14 @@ p  {
     line-height:180%;
 }
 .container-4 {
-    padding:1% 1%;
-    width:100%;
+    width:98%;
     height:auto;
-    
+   
 }
 
 /*Footer*/
 .container-5{
+    border:3px solid deeppink;
     background-color:#242424;
     text-align:center;
     padding:10% 11.25%;
@@ -360,20 +358,22 @@ p  {
     justify-content:space-around;  
 }
 .column1of2 {
-    width:49%;
+    width:48%;
     
 }
 .column1of2 p{
     padding-right:5%;
 }
 .column2of2{
-    width:49%
+    width:48%
 }
 
 
 /*Footer*/
 
 .site-footer {
+    margin:0;
+    width:100%;
     display:flex;
     justify-content:space-between;
     align-content:flex-start;
@@ -507,4 +507,4 @@ p  {
     border:2px solid red; 
 }
 
-} }
+} 
