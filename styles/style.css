@@ -14,6 +14,7 @@
      font-weight:bold;
     }
 
+
 body {
     font-size:16px;
     color:#2d2d2d;
@@ -23,49 +24,40 @@ body {
     margin:0;
     text-align:center;
 }
-
-img{
+img {
     max-width:100%;
 }
-
-.section-header{
-    border:3px solid deeppink;
+.section-header {
     color:#646464;
     font-family: Pacifico;
     font-size: 2.5em;
     margin:40px;
-    font-weight:normal;
 }
-
 
 /*Header and nav bar*/
 .site-header {
     background:black;
     color:white;
-    width:100%;
     display:flex;
     flex-direction:column;
     align-content:center;
 }
-
-.logo-photo{
+.logo-photo {
     width:55%;
-    padding:10px;
-   
+    padding:10px;  
 }
-.menu-primary{
+.menu-primary {
     width:100%;
 }
-.menu-primary ul{
+.menu-primary ul {
     margin:2%;
     padding-left:0%;
-    font-size:1em;
-   
+    font-size:1em; 
 }
-
 .menu-primary ul li {
     padding:0 4%;
 }
+
 /*Links and list for nav bar */
 .menu-primary a {
     text-decoration:none;
@@ -86,12 +78,10 @@ img{
     padding:1%;
     display:inline-block;
     }
-/*Banner Section*/
 
+/*Banner Section*/
 .banner-section {
-    border:3px solid deeppink;
     padding: 17% 0;
-    text-align:center;
     background:
     linear-gradient(to top, 
     rgba(0, 0, 0, 0.25) 0%, 
@@ -103,25 +93,13 @@ img{
     background-attachment:scroll;
     background-position:top center;
     color:white;
-    
 }
-
-.banner section {
-    width:99%;
-    margin:0 auto;
-    padding:3%;
-    
-}
-
 /*text*/
-.banner-section .first-line{
-    display:block;
+.banner-section .first-line {
     text-transform:uppercase;
     font-family: Karla;
-    font-weight:normal;
 }
-.banner-section .second-line{
-    display:block;
+.banner-section .second-line {
     font-size:1.75em;
     font-family: Pacifico;
     line-height:75px;
@@ -129,22 +107,19 @@ img{
 .second-line, .third-line {
     text-shadow:2px 2px 5px #999;
 }
-.banner-section .third-line{
+.banner-section .third-line {
     font-size:1.25em;
     font-family: Pacifico;
 }
-
-#banner-paragraph{
+#banner-paragraph {
     color:white;
     background: rgba(0, 0, 0, 0.6);
     font-family: Karla;
     line-height:1.25em;
     margin: 8% 10%;
     padding:1% 4%;
-    
 }
-
-button{  
+button {  
     background-color:#e2574c;
     color:white;
     border-radius:60px;
@@ -154,52 +129,41 @@ button{
     padding: 0.75em;
     border:none;
 }
-button a{text-decoration: none;
-color:white;}
-
-button a:hover{color:#b64036;}
+button a {
+    text-decoration: none;
+    color:white;
+}
+button a:hover {
+    color:#b64036;
+}
 
 /*About*/
-.container-2{
-    border:3px solid deeppink;
-    width:100%vw;
-    margin:0 0 auto;
+.container-2 {
     padding:2% 0;
 }
-
 .about-section p {
-    font-family:karla;
-    line-height:165%;
-    font-weight:normal;
     margin:3%;
 }
-
 .about-images {
-    border:3px solid deeppink;
     display:flex;
     flex-direction:column; 
     justify-content:space-between;
-   
-
 }
 .about-images img {
     box-shadow:2px 2px 5px 1px #666;
     height:auto;
-    width:95%;
+    width:96%;
     margin:2% 2%;
 }
 
 /* Rentals*/
-
 .container-3 {
-    margin:0 auto;
-    padding: 2% 2% 2% 2%;
+    padding: 2%;
 }
-.column1of2 p{
+.column1of2 p {
     line-height:180%;
     text-align:left;
     padding-right:8%;
-    font-family:karla;
 }
 
 .telephone {
@@ -209,30 +173,23 @@ button a:hover{color:#b64036;}
     color:#b64036;
 }
 
-/*table*/
-
+/*Rental Price Table*/
 .prices-table {
     width:100%;
     height:auto;
 }
-
 #table-header .bold-table {
-    font-family:karla;
     font-weight:bold;
-    background-color:#e6e6e6;}
-
-
+    background-color:#e6e6e6;
+}
 .prices-table, th, td {
     border: 1px solid #c8c8c8;
     border-collapse: collapse;
     padding:3%;
-    margin:0;
-    font-weight:normal;
-    font-family:karla;
+    margin-top:8%;
     table-layout: fixed;
-    font-size:16px
 }
-#left-alignment{
+#left-alignment {
     text-align:left;
 }
 
@@ -242,108 +199,101 @@ p  {
 }
 .container-4 {
     width:100%;
-    height:auto;
-   
+    height:auto;  
 }
 .map {
-    width:100%;
-    height:auto;
     border:2px solid blue;
+    padding:10% 2%;
 }
+.location-section iframe {
+    border:2px solid deeppink;
+    height:30%;
+}
+
 /*Footer*/
-.container-5{
+.container-5 {
     background-color:#242424;
-    text-align:center;
-    padding:10% 11.25%;
-    
+    padding:10% 0%;
 }
-.site-footer p{
+.site-footer p {
         color:white;
 }
-
-.site-footer a{
-    color:white; /*Question hover color*/
+.site-footer a {
+    color:white; 
 }
-.site-footer a:hover {color:#b64036;}
+.site-footer a:hover {
+    color:#b64036;
+}
 
-.site-footer .address-paragraph{
+.site-footer .address-paragraph {
     color:#989898;
 }
+.site-footer .left-side-footer {
+    padding:20px 16px;
+    line-height:6px;
+}
 .site-footer .right-side-footer .text{
-
     display:none;
-
 }
 .site-footer .right-side-footer .toggle {
-    padding:10px;
+    padding:5px;
 }
+
+
 
 /*Tablet */
 @media screen and  (min-width:600px) {
 
 .section-header {
-    margin:3% 0%;
+    margin:4% 0%;
+    font-size:3.25em;
 }
+
 /*Nav*/
     
 .site-header {
     flex-direction:row;
     justify-content:space-between;
-
 }
-
-.logo-photo{
+.logo-photo {
     width:75%;
     padding:5px;
 }
-.menu-primary ul{
+.menu-primary ul {
     font-size:1rem;
     text-align: right;
     padding:1%;
 }
-
 .menu-primary ul li {
     padding: 0 2%;
 }
 
-/*Banner Section*/
 
+/*Banner Section*/
 .container {
     padding:10%;
 }    
-
-#banner-paragraph{
+#banner-paragraph {
     font-size:1.25em;
     margin:5% 3%;
     padding:1% 0%;
 }
-
 .banner-section .second-line {
     line-height:115px;
     font-size:3.25em;
 }
-.banner-section .third-line{
+.banner-section .third-line {
     font-size:2em;
     line-height:2;
 }
-.second-line, .third-line {
-    text-shadow:2px 2px 5px #999;
-}
-.sign-me-up{
+.sign-me-up {
     font-size:1.2em;
 }
+
 /*About Section*/
-.section-header {
-    font-size:3.25em;
-    margin:4% 0%;
-}
-
-
 .about-section p {
     padding:0px 10px;
-
 }
-
 
 /*About images */
 .about-images {
@@ -351,7 +301,6 @@ p  {
     justify-content:space-around;
     margin:3%;
     margin-bottom:8%;
-   
 }
 
 /*Rentals*/
@@ -362,59 +311,49 @@ p  {
 }
 .column1of2 {
     width:48%;
-    
 }
-.column1of2 p{
+.column1of2 p {
     padding-right:5%;
 }
-.column2of2{
+.column2of2 {
     width:48%
 }
-
+.prices-table, th, td {
+    margin-top:0;
+}
+/*Location*/
 
 /*Footer*/
-
 .site-footer {
-    margin:0;
-    width:100%;
     display:flex;
     justify-content:space-between;
     align-content:flex-start;
     font-size:1em;
-    padding:0 0;
- 
+    padding:5% 2%;
 }
-
-.left-side-footer{
+/*Left*/
+.site-footer .left-side-footer {
     text-align:left;
-    display:block;
     width:50%;
-    margin:0;
-    flex-wrap:wrap;
-  
+    padding:0 0;
+    line-height:6px;
 }
-
+/*Right*/
 .right-side-footer {
-    width:18%;
+    width:23%;
 }
 .right-side-footer span {
     display:block;
     text-align:left;
-    
 }
 .site-footer .right-side-footer .toggle {
     padding:0px;
     padding-right:30px;
-    
-
 }
-
 .site-footer .right-side-footer .text{
     display:inline-block;
     padding-left:10px;
-
 }
-
 
 
 
@@ -422,92 +361,36 @@ p  {
 @media screen and  (min-width:1140px) {
 
 .section-header {
-    margin:5% 0%;
-}
-/*Nav*/
-    
-.site-header {
-    flex-direction:row;
-    justify-content:space-between;
+    font-size:3.25em;
+    margin:4% 0%;
 }
 
+/*Nav*/
 .logo-photo{
     width:60%;
-    padding:5px;
-  
-}
-.menu-primary ul{
-    font-size:1rem;
-    text-align: right;
-    padding:1%;
-}
-
-.menu-primary ul li {
-    padding: 0 2%;
+    padding:4%;
 }
 
 /*Banner Section*/
 
 .container {
-    margin:0 auto;
     padding:3%;
-
 }    
-
-#banner-paragraph{
-    font-size:1.25em;
+#banner-paragraph {
     margin:3% 23%;
-    padding:1% 0%;
 }
-.banner-section .first-line {
-    text-transform:uppercase;
-}
-
 .banner-section .second-line {
     line-height:150px;
     font-size:4.75em;
-}
-.banner-section .third-line{
-    font-size:2em;
-    line-height:2;
-}
-.second-line, .third-line {
-    text-shadow:2px 2px 5px #999;
 }
 .sign-me-up{
     font-size:1.3em;
 }
 
-
 /*About Section*/
-
-.section-header {
-    font-size:3.25em;
-    margin:4% 0%;
-} 
 
 .about-section p {
     padding:0% 16%;
-
 }
 
 
-
-/*About images */
-.about-images {
-    flex-direction: row;
-    justify-content:space-around;
-    margin:3% 
-   
-}
-
-.left-side-footer{
-    border:2px solid red;
-    width:25%;
-    
-}
-.right-side-footer span {
-    border:2px solid red; 
-}
-
-} 
