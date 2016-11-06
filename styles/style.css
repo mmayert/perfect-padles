@@ -40,9 +40,9 @@ img{
 
 /*Header and nav bar*/
 .site-header {
-    border:3px solid deeppink;
     background:black;
     color:white;
+    width:100%;
     display:flex;
     flex-direction:column;
     align-content:center;
@@ -241,14 +241,17 @@ p  {
     line-height:180%;
 }
 .container-4 {
-    width:98%;
+    width:100%;
     height:auto;
    
 }
-
+.map {
+    width:100%;
+    height:auto;
+    border:2px solid blue;
+}
 /*Footer*/
 .container-5{
-    border:3px solid deeppink;
     background-color:#242424;
     text-align:center;
     padding:10% 11.25%;
@@ -378,7 +381,7 @@ p  {
     justify-content:space-between;
     align-content:flex-start;
     font-size:1em;
-    padding:5% 10% 5% 2%;
+    padding:0 0;
  
 }
 
@@ -392,7 +395,7 @@ p  {
 }
 
 .right-side-footer {
-    width:30%;
+    width:18%;
 }
 .right-side-footer span {
     display:block;
