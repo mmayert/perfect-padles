@@ -1,9 +1,14 @@
 <html>
     <head>
         <title>Perfect Paddles</title>
-        <link rel="stylesheet" href="style.css" />
+         <link rel="stylesheet" href="styles/reset.css" />
+        <link rel="stylesheet" href="styles/style.css" />
+        <script src="https://use.fontawesome.com/4fbf87bab3.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
     </head>
     <body>
+
         <header class="site-header">
             <div class="logo">
                 <img src="images/perfect-paddles-logo.svg" alt="Perect Paddles Logo" class="logo-photo";>
@@ -11,14 +16,14 @@
             <nav class="menu-primary">
                 <ul>
                 <li> <a href="#about"> About</a> </li>
-                <li> <a href="#"> Rentals</a> </li>
-                <li> <a href="#">Location</a> </li>
+                <li> <a href="#rentals"> Rentals</a> </li>
+                <li> <a href="#location">Location</a> </li>
                 </ul>
             </nav>
         </header>
 
-        <section class="banner-section">
-            <h1 class="site-title container">
+        <section class="banner-section container">
+            <h1 class="site-title">
                 <div class="first-line"> Enjoy the </div>
                 <div class="second-line">Great Outdoors </div>
                 <div class="third-line">from the water</div>
@@ -33,26 +38,31 @@
             <p>
               Perfect Paddles Kayak Rental Co. offers you the unique opportunity to experience the great outdoors in one of our single or double kayaks. We cater to all skill levels and abilities, and offer a variety of lessons and tours too.</p>
         </section>
-        <div class="about-images ">
-                    <img src="images/sunset-kayak-for-web.jpg" alt="A kayak on the water at sunset" class="image-1">
-                    <img src="images/coffee-adventure-for-web.jpg" alt= "A coffee mug with the phrase the adventure begins on it" class="image-2">
-                    <img src="images/girl-in-kayak-for-web.jpg" alt="A girl on the lake in a green kayak." class="image-3">
-                </div>
+        <section class="about-images">
+                    <div class="img-1"><img src="images/sunset-kayak-for-web.jpg" alt="A kayak on the water at sunset" class="image-1"></div>
+                    <div class="img-2"><img src="images/coffee-adventure-for-web.jpg" alt= "A coffee mug with the phrase the adventure begins on it" class="image-2"></div>
+                    <div class="img-3"><img src="images/girl-in-kayak-for-web.jpg" alt="A girl on the lake in a green kayak." class="image-3"></div>
+                </section>
            
-        
+<a name="rentals"  />   
+
+  
+ 
 <h1 class="section-header">Rentals</h1>
-        <section class="rental-section container-3">
+        <section class="rental-section container-3 ">
             <div class="column1of2">
             <p> All rental prices include basic paddles, life jackets, splash protection, and a safety demonstration.</p>
+            <br>
             <p> Please note that we require 24 hours notice for all cancellations and late returns will be charged accordingly </p>
-            <p> Call <a href="tel:604-604-6040"> 604-604-6040</a> to book now! </p>
+            <br>
+            <p> Call <a href="tel:604-604-6040" class="telephone"> 604-604-6040</a> to book now! </p>
             </div>
             <div class="column2of2">
             <table class="prices-table">
                 <tr id="table-header">
                     <th class="bold-table"> Duration </th>
                     <th class="bold-table"> Single Kayak </th>
-                    <th class="bold-table"> Double K </th>
+                    <th class="bold-table"> Double Kayak </th>
                 </tr>
                  <tr> 
                     <th id="left-alignment"> 2 hours </th>
@@ -76,31 +86,37 @@
                 </tr>
             </table>
             </div>
-        </section>
 
-        <section class="location-section container-2">
-            <h1 class="section-header">location</h1>
+        </section>
+    
+        <section class="location-section container-4">
+            <h1 class="section-header">location</h1>            
             <p> Come visit us at our location on Cornwall Avenue and Yew Street in Vancouver:</p>
             <div class="map">
-            <!--map-->
+                <iframe src="https://www.google.com/maps/embed/v1/place?q=Kitsilano+Beach,+Vancouver,+BC,+Canada&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe>
             </div>
         </section>
 
-        <footer class="site-footer">  
+        <footer class="site-footer container-5">  
             <div class="left-side-footer">
-            <p>
-            <span>@ 2016 Perfect Paddles Kayak Co.</span>
-            <span> Powered by HTML and CSS.</span>
+            <p>&copy; 2016 Perfect Paddles Kayak Co.</p>
+            <p>Powered by HTML and CSS. </p>
+            <br>
             <p>604-604-6040. <a href="mailto:info@perfectpadles.com">info@perfectpadles.com</a></p>
-            <p class="address-paragraph"> 
-                <span>Corwall Avenue & Yew Street </span>
-                <span>Vancouver, BC, Canada</span>
-            </p>
+            <br> 
+            <p class="address-paragraph">Corwall Avenue &amp; Yew Street</p>
+            <p class="address-paragraph"> Vancouver, BC, Canada</p>
+        
             </div>
-            <!--Toggles-->
             
             <div class="right-side-footer">
-                <p> toggles </p>
+                <p> 
+               <span class="toggle"><a href="https://www.facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i><span class="text"> Facebook</span></a></span>
+               <span class="toggle"><a href="https://www.twitter.com"> <i class="fa fa-twitter" aria-hidden="true"></i><span class="text">Twitter </span></a></span>
+               <span class="toggle"><a href="https://www.instagram.com"> <i class="fa fa-instagram" aria-hidden="true"></i><span class="text">Instagram </span></a></span>
+               <span class="toggle"> <a href="https://www.pinterest.com"><i class="fa fa-pinterest" aria-hidden="true"></i><span class="text">Pinterest </span></a></span>
+            <span class="toggle"><a href="https://www.plus.google.com"><i class="fa fa-google-plus" aria-hidden="true"></i><span class="text">Google+ </span></a></span>
+                </p>
             </div>
         </footer>
 
