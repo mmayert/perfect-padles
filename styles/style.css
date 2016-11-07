@@ -202,12 +202,7 @@ p  {
     height:auto;  
 }
 .map {
-    border:2px solid blue;
-    padding:10% 2%;
-}
-.location-section iframe {
-    border:2px solid deeppink;
-    height:30%;
+    padding:5% 2%;
 }
 
 /*Footer*/
