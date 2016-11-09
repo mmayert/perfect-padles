@@ -5,12 +5,12 @@
 }
 @font-face { 
     font-family: Karla;
-    src: url('../fonts/karla-regular.ttf');
+    src: url('../fonts/Karla-Regular.ttf');
     font-weight:normal;
 }
 @font-face {
-     font-family: Karla ; 
-     src: url('../fonts/karla-Bold.ttf');
+     font-family: Karla; 
+     src: url('../fonts/Karla-Bold.ttf');
      font-weight:bold;
 }
 
