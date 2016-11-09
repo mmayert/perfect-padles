@@ -180,10 +180,10 @@ button {
     padding-right:8%;
 }
 
-#telephone {
+.telephone {
     color:#e2574c;
 }
-#telephone hover{
+.telephone hover{
     color:#b64036;
 }
 
@@ -192,7 +192,7 @@ button {
     width:100%;
     height:auto;
 }
-#table-header .bold-table {
+.table-header .bold-table {
     font-weight:bold;
     background-color:#e6e6e6;
 }
@@ -203,7 +203,7 @@ button {
     margin-top:8%;
     table-layout: fixed;
 }
-#left-alignment-1, #left-alignment-2, #left-alignment-3, #left-alignment-4 {
+.left-alignment-1, .left-alignment-2, .left-alignment-3, .left-alignment-4 {
     text-align:left;
 }
 
