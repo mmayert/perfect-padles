@@ -142,13 +142,7 @@ button {
     padding: 0.75em;
     border:none;
 }
-button a {
-    text-decoration: none;
-    color:white;
-}
-button a:hover {
-    color:#b64036;
-}
+
 
 /*About*/
 .container-2 {
@@ -186,10 +180,10 @@ button a:hover {
     padding-right:8%;
 }
 
-.telephone {
+#telephone {
     color:#e2574c;
 }
-.telephone hover{
+#telephone hover{
     color:#b64036;
 }
 
@@ -209,7 +203,7 @@ button a:hover {
     margin-top:8%;
     table-layout: fixed;
 }
-#left-alignment {
+#left-alignment-1, #left-alignment-2, #left-alignment-3, #left-alignment-4 {
     text-align:left;
 }
 
