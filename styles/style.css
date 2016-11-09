@@ -1,0 +1,452 @@
+@font-face { 
+    font-family: Pacifico;
+    src: url('../fonts/Pacifico.ttf');
+    font-weight:normal; 
+}
+@font-face { 
+    font-family: Karla;
+    src: url('../fonts/karla-regular.ttf');
+    font-weight:normal;
+}
+@font-face {
+     font-family: Karla ; 
+     src: url('../fonts/karla-Bold.ttf');
+     font-weight:bold;
+}
+
+
+body {
+    font-size:16px;
+    color:#2d2d2d;
+    font-family:karla;
+    line-height:1.25;
+    box-sizing: border-box;
+    margin:0;
+    text-align:center;
+}
+img {
+    max-width:100%;
+}
+.section-header {
+    color:#646464;
+    font-family: Pacifico;
+    font-size: 2.5em;
+    margin:40px;
+}
+
+/*Header and nav bar*/
+.site-header {
+    background:black;
+    color:white;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+        -ms-flex-direction:column;
+            flex-direction:column;
+    -ms-flex-line-pack:center;
+        align-content:center;
+}
+.logo-photo {
+    width:55%;
+    padding:10px;  
+}
+.menu-primary {
+    width:100%;
+}
+.menu-primary ul {
+    margin:2%;
+    padding-left:0%;
+    font-size:1em; 
+}
+.menu-primary ul li {
+    padding:0 4%;
+}
+
+/*Links and list for nav bar */
+.menu-primary a {
+    text-decoration:none;
+    color:white;
+}
+.menu-primary a:visited{
+    text-decoration:none; 
+    color:white;
+}
+.menu-primary  a:hover{
+     text-decoration:underline; 
+     color:#b64036;
+}
+ .menu-primary li {   
+    list-style-type:none;
+    text-transform: uppercase; 
+    font-family: Karla;   
+    padding:1%;
+    display:inline-block;
+    }
+
+/*Banner Section*/
+.banner-section {
+    padding: 17% 0;
+    background:
+    -webkit-linear-gradient(bottom, 
+    rgba(0, 0, 0, 0.25) 0%, 
+    rgba(0, 0, 0, 0.25) 100%
+    ),
+     url('../images/kayak-bkgd-for-web.jpg');
+    background:
+    linear-gradient(to top, 
+    rgba(0, 0, 0, 0.25) 0%, 
+    rgba(0, 0, 0, 0.25) 100%
+    ),
+     url('../images/kayak-bkgd-for-web.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    background-position:top center;
+    color:white;
+}
+/*text*/
+.banner-section .first-line {
+    text-transform:uppercase;
+    font-family: Karla;
+    font-size:1.25em;
+}
+.banner-section .second-line {
+    font-size:2.5em;
+    font-family: Pacifico;
+    line-height:75px;
+    }
+.second-line, .third-line {
+    text-shadow:2px 2px 5px #999;
+}
+.banner-section .third-line {
+    font-size:1.75em;
+    font-family: Pacifico;
+}
+#banner-paragraph {
+    color:white;
+    background: rgba(0, 0, 0, 0.6);
+    font-family: Karla;
+    line-height:1.25em;
+    margin: 8% 10%;
+    padding:1% 4%;
+}
+button {  
+    background-color:#e2574c;
+    color:white;
+    border-radius:60px;
+    font-family: Karla;
+    text-transform: uppercase;
+    font-size: 1.05em;
+    padding: 0.75em;
+    border:none;
+}
+
+
+/*About*/
+.container-2 {
+    padding:2% 0;
+}
+.about-section p {
+    margin:3%;
+}
+.about-images {
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+        -ms-flex-direction:column;
+            flex-direction:column; 
+    -webkit-box-pack:justify; 
+        -ms-flex-pack:justify; 
+            justify-content:space-between;
+}
+.about-images img {
+    box-shadow:2px 2px 5px 1px #666;
+    height:auto;
+    width:96%;
+    margin:2% 2%;
+}
+
+/* Rentals*/
+.container-3 {
+    padding: 2%;
+}
+.column1of2 p {
+    line-height:180%;
+    text-align:left;
+    padding-right:8%;
+}
+
+#telephone {
+    color:#e2574c;
+}
+#telephone hover{
+    color:#b64036;
+}
+
+/*Rental Price Table*/
+.prices-table {
+    width:100%;
+    height:auto;
+}
+#table-header .bold-table {
+    font-weight:bold;
+    background-color:#e6e6e6;
+}
+.prices-table, th, td {
+    border: 1px solid #c8c8c8;
+    border-collapse: collapse;
+    padding:3%;
+    margin-top:8%;
+    table-layout: fixed;
+}
+#left-alignment-1, #left-alignment-2, #left-alignment-3, #left-alignment-4 {
+    text-align:left;
+}
+
+/*Location*/
+p  {
+    line-height:180%;
+}
+.container-4 {
+    width:100%;
+    height:auto;  
+}
+.map {
+    padding:5% 2%;
+    height:300px;
+    width:96%;
+    max-width:100%;
+    list-style:none; 
+    -webkit-transition: none; 
+    transition: none;
+    overflow:hidden;
+}
+
+.map iframe {
+    height:100%;
+    width:100%;
+    border:0;
+}
+
+/*Footer*/
+.container-5 {
+    background-color:#242424;
+    padding:10% 0%;
+    margin-top:10%;
+}
+.site-footer p {
+        color:white;
+}
+.site-footer a {
+    color:white; 
+}
+.site-footer a:hover {
+    color:#b64036;
+}
+
+.site-footer .address-paragraph {
+    color:#989898;
+}
+.site-footer .left-side-footer {
+    padding:20px 16px;
+    line-height:6px;
+}
+.site-footer .right-side-footer .text{
+    display:none;
+}
+.site-footer .right-side-footer .toggle {
+    padding:5px;
+}
+
+
+
+/*Tablet */
+@media screen and  (min-width:600px) {
+
+.section-header {
+    margin:4% 0%;
+    font-size:3.25em;
+}
+
+/*Nav*/
+    
+.site-header {
+    -webkit-box-orient:horizontal;
+    -webkit-box-direction:normal;
+        -ms-flex-direction:row;
+            flex-direction:row;
+    -webkit-box-pack:justify;
+        -ms-flex-pack:justify;
+            justify-content:space-between;
+}
+.logo-photo {
+    width:75%;
+    padding:5px;
+}
+.menu-primary ul {
+    font-size:1rem;
+    text-align: right;
+    padding:1%;
+}
+.menu-primary ul li {
+    padding: 0 2%;
+}
+
+
+/*Banner Section*/
+.container {
+    padding:10%;
+}    
+#banner-paragraph {
+    font-size:1.25em;
+    margin:5% 3%;
+    padding:1% 0%;
+}
+.banner-secion .first-line {
+    font-size:1.4em;
+}
+.banner-section .second-line {
+    line-height:115px;
+    font-size:4.5em;
+}
+.banner-section .third-line {
+    font-size:2.3em;
+    line-height:2;
+}
+.sign-me-up {
+    font-size:1.2em;
+}
+
+/*About Section*/
+.about-section p {
+    padding:0px 10px;
+}
+
+/*About images */
+.about-images {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack:distribute;
+        justify-content:space-around;
+    margin:3%;
+    margin-bottom:8%;
+}
+
+/*Rentals*/
+.container-3{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack:distribute;
+        justify-content:space-around;  
+}
+.column1of2 {
+    width:46%;
+}
+.column1of2 p {
+    padding-right:5%;
+}
+.column2of2 {
+    width:52%
+}
+.prices-table, th, td {
+    margin-top:0;
+}
+/*Location*/
+.map {
+    padding:3% 2%;
+}
+
+/*Footer*/
+.site-footer {
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack:justify;
+        -ms-flex-pack:justify;
+            justify-content:space-between;
+    -ms-flex-line-pack:start;
+        align-content:flex-start;
+    font-size:1em;
+    padding:5% 2%;
+    margin-top:5%;
+}
+/*Left*/
+.site-footer .left-side-footer {
+    text-align:left;
+    width:50%;
+    padding:0 0;
+    line-height:6px;
+}
+/*Right*/
+.right-side-footer {
+    width:23%;
+}
+.right-side-footer span {
+    display:block;
+    text-align:left;
+}
+.site-footer .right-side-footer .toggle {
+    padding:0px;
+    padding-right:30px;
+}
+.site-footer .right-side-footer .text{
+    display:inline-block;
+    padding-left:10px;
+}
+}
+
+
+
+/*Desktop*/
+@media screen and  (min-width:1140px) {
+
+.section-header {
+    font-size:3.25em;
+    margin:4% 0%;
+}
+
+/*Nav*/
+.logo-photo{
+    width:60%;
+    padding:4%;
+}
+
+/*Banner Section*/
+
+.container {
+    padding:6% 3%;
+}    
+#banner-paragraph {
+    margin:3% 23%;
+}
+.banner-section .first-line {
+    font-size:1.5em;
+}
+.banner-section .second-line {
+    line-height:150px;
+    font-size:6.75em;
+}
+.banner-section .third-line {
+    font-size:2.75em;
+}
+.sign-me-up{
+    font-size:1.3em;
+}
+
+/*About Section*/
+
+.about-section p {
+    padding:0% 17%;
+}
+}
