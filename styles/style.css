@@ -38,9 +38,15 @@ img {
 .site-header {
     background:black;
     color:white;
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
-    flex-direction:column;
-    align-content:center;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+        -ms-flex-direction:column;
+            flex-direction:column;
+    -ms-flex-line-pack:center;
+        align-content:center;
 }
 .logo-photo {
     width:55%;
@@ -82,6 +88,12 @@ img {
 /*Banner Section*/
 .banner-section {
     padding: 17% 0;
+    background:
+    -webkit-linear-gradient(bottom, 
+    rgba(0, 0, 0, 0.25) 0%, 
+    rgba(0, 0, 0, 0.25) 100%
+    ),
+     url('../images/kayak-bkgd-for-web.jpg');
     background:
     linear-gradient(to top, 
     rgba(0, 0, 0, 0.25) 0%, 
@@ -130,13 +142,7 @@ button {
     padding: 0.75em;
     border:none;
 }
-button a {
-    text-decoration: none;
-    color:white;
-}
-button a:hover {
-    color:#b64036;
-}
+
 
 /*About*/
 .container-2 {
@@ -146,9 +152,16 @@ button a:hover {
     margin:3%;
 }
 .about-images {
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
-    flex-direction:column; 
-    justify-content:space-between;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+        -ms-flex-direction:column;
+            flex-direction:column; 
+    -webkit-box-pack:justify; 
+        -ms-flex-pack:justify; 
+            justify-content:space-between;
 }
 .about-images img {
     box-shadow:2px 2px 5px 1px #666;
@@ -167,10 +180,10 @@ button a:hover {
     padding-right:8%;
 }
 
-.telephone {
+#telephone {
     color:#e2574c;
 }
-.telephone hover{
+#telephone hover{
     color:#b64036;
 }
 
@@ -190,7 +203,7 @@ button a:hover {
     margin-top:8%;
     table-layout: fixed;
 }
-#left-alignment {
+#left-alignment-1, #left-alignment-2, #left-alignment-3, #left-alignment-4 {
     text-align:left;
 }
 
@@ -205,9 +218,10 @@ p  {
 .map {
     padding:5% 2%;
     height:300px;
-    width:100%;
+    width:96%;
     max-width:100%;
     list-style:none; 
+    -webkit-transition: none; 
     transition: none;
     overflow:hidden;
 }
@@ -261,8 +275,13 @@ p  {
 /*Nav*/
     
 .site-header {
-    flex-direction:row;
-    justify-content:space-between;
+    -webkit-box-orient:horizontal;
+    -webkit-box-direction:normal;
+        -ms-flex-direction:row;
+            flex-direction:row;
+    -webkit-box-pack:justify;
+        -ms-flex-pack:justify;
+            justify-content:space-between;
 }
 .logo-photo {
     width:75%;
@@ -309,17 +328,27 @@ p  {
 
 /*About images */
 .about-images {
-    flex-direction: row;
-    justify-content:space-around;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack:distribute;
+        justify-content:space-around;
     margin:3%;
     margin-bottom:8%;
 }
 
 /*Rentals*/
 .container-3{
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
-    flex-direction: row;
-    justify-content:space-around;  
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack:distribute;
+        justify-content:space-around;  
 }
 .column1of2 {
     width:46%;
@@ -340,9 +369,14 @@ p  {
 
 /*Footer*/
 .site-footer {
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
-    justify-content:space-between;
-    align-content:flex-start;
+    -webkit-box-pack:justify;
+        -ms-flex-pack:justify;
+            justify-content:space-between;
+    -ms-flex-line-pack:start;
+        align-content:flex-start;
     font-size:1em;
     padding:5% 2%;
     margin-top:5%;
@@ -369,6 +403,7 @@ p  {
 .site-footer .right-side-footer .text{
     display:inline-block;
     padding-left:10px;
+}
 }
 
 
@@ -414,5 +449,4 @@ p  {
 .about-section p {
     padding:0% 17%;
 }
-
-
+}
